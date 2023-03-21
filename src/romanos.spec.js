@@ -18,5 +18,8 @@ describe("numero romano", () => {
   it("deberia tomar el numero 6 y representarlo a romano", () => {
     expect(romano(6)).toEqual("VI");
   });
+  it("deberia tomar el numero  y representarlo a romano", () => {
+    expect(romano(8)).toEqual("VIII");
+  });
 });
 
