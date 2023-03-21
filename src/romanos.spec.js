@@ -30,5 +30,7 @@ describe("numero romano", () => {
   it("deberia tomar el numero  y representarlo a romano", () => {
     expect(romano(50)).toEqual("L");
   });
+  it("deberia tomar el numero  y representarlo a romano", () => {
+    expect(romano(80)).toEqual("LXXX");
+  });
 });
-
