@@ -7,6 +7,10 @@ function romano(num) {
     {
       return "II"
     }
+    if (num == 3)
+    {
+      return "III"
+    }
   }
   
   export default romano;
